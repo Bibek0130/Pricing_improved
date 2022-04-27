@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* heading */
+h1, h2, h3, h4{
+font-family: 'Red Hat Display';
+ font-style: normal;
+}
+#first-page .home-page-banner{
+    background: linear-gradient(111.08deg, #5a3d80 1.49%, #1f0d51 96.65%);
+    border-radius: 45px 45px 300px 45px;
+    top: 9rem;
+    height: 100vh;
+    margin-right: 2rem;
+    margin-left:2rem;
+   
+}
+:root {
+    
+    --blue: hsla(233, 46%, 31%, 1);
+    --black: hsla(0, 0%, 0%, 1);
+    --grey: #ececec;
+    --blue-magnenta: #753bbd;
+    --dark-grey: #aeaeae;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+padding: 0px 181px 0px 181px;
+}
+.nav-link li>a {
+    color: var(--black);
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navbar{
+    justify-content: space-around;
+    width: 55%;
+}
+.nav-item{
+    padding: 10%
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5px;
+}
+.description {
+    top: 40px;
+
+}
+.banner-description{
+    
+    color: #ffffff;
+    text-shadow: 0px 4px 3px 0px #15001c33 inset;
+}
+@media screen and (min-width:1024px) {
+    .logo {
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }
+    .banner-description{
+        padding-left: 10%;
+        padding-top: 3rem;
+         
+    }
+    .heading1{
+        font-size: 70px;
+        color: whitesmoke;
+        font-weight: 900;
+    }
+    .heading2{
+        font-size: 39px;
+        font-weight:700;
+       padding-top: 2.5rem;
+        color: whitesmoke;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 200;
+        padding-top: 2rem;
+        color: whitesmoke;
+    }
+    .connect-now{
+        width: 358px;
+        height: 66px;
+        margin: 2rem 0;
+        border: 2px solid var(--blue-magnenta);
+        outline-color: none;
+        background: linear-gradient( 94.03deg, rgba(91, 111, 193, 0.2) 12.67%, rgba(214, 239, 248, 0.2) 63.83%);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+    }
+    
+}
+  @media screen and (max-width:414px){
+   
+    .home-page-banner{
+    height: 100vh;      /* height is made to 100view height so that the web page occupies the whole height when switched to iphone view*/
+    background: linear-gradient(111.08deg, #5a3d80 1.49%, #1f0d51 96.65%);
+    border-radius: 45px 45px 300px 45px;
+    margin: 5px;
+    overflow-x: hidden;
+    }
+    .computer-img{
+        width: 355px;     /*width of the computer-image is made 355px to adjust it in the iphone view*/
+    }
+    
+           
+    }
+    .banner-description{
+        padding-left: 5%;
+        padding-top: 0rem;
+
+         
+    }
+    .heading1{
+        font-size: 3rem;
+
+    }
+    .heading2{
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+    p{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+    .connect-now{
+
+        border: 2px solid var(--blue-magnenta);
+        outline-color: none;
+        background: linear-gradient( 94.03deg, rgba(91, 111, 193, 0.2) 12.67%, rgba(214, 239, 248, 0.2) 63.83%);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+    }
+    
+}  
+
+/* pricing section */
+#pricing{
+    height: 100%
+}
+.pricing-header{
+    padding-top: 7rem;
+    color: #753BBD;
+    font-weight: 900;
+}
+.pricing-header h1{
+    font-size: 48px;
+    text-align: center;
+}
+.row{
+    padding-top: 7rem;
+}
+.white-box{
+background: #FFFFFF;
+border: 1px solid rgba(196, 196, 196, 0.21);
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+border-radius: 10px;
+line-height: 2rem;
+list-style: none;
+}
+.black-box{
+padding-top: 2rem;
+ background: rgba(0, 0, 0, 0.84);
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 2px 4px rgba(196, 196, 196, 0.48);
+border-radius: 20px;
+line-height: 2rem;
+color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+/* //button */
+.readmore{ 
+background: #753BBD;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+border-radius: 10px;
+align-self: baseline;
+}
+
+
+
+/* Solution section */
+.solution-heading{
+    color: #753BBD;
+}
+.one-solution-box-img{
+    align-self: center;
+}
+@media screen and (min-width:1024px) {
+
+    #solution{
+        height: 100vh;
+        background-color: #F9F3FF;
+    }
+    #solution .col-lg-4{
+        padding: 0 5px 0 5px;
+    
+    }
+    .solution-main-heading h1{
+        padding-top: 3rem;
+        color: #753BBD;
+        font-size: 48px;
+    }
+    .solution-main-heading p{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.52);
+    }
+    #solution .col-lg-4{
+        
+    }
+}
+    @media screen and (max-width:414px){
+        #solution{
+            
+            background-color: #F9F3FF;
+        }
+        .solution-main-heading h1{
+            padding-top: 7rem;
+            color: #753BBD;
+            font-weight: 900;
+        }
+        .solution-main-heading p{
+            text-align: center;
+            color: rgba(0, 0, 0, 0.52);
+        }
+        #solution .col-lg-4{
+        
+            background-color: #ffffff;
+            box-sizing: border-box;
+            box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+        
+        }
+    
+    }
+    /* solution section ends */
+    
+    /* newsletter section  starts*/
+    #newsletter h2, h4, h6{
+        color: #FFFFFF;
+    }
+    .privacy-heading{
+        color: #753BBD;     /* for footer section */
+    }
+    
+    @media screen and (min-width:1024px){
+    #newsletter{
+        height: 100vh;
+    }
+    .text{
+    padding-left: 5rem;    
+    }
+    
+    .upper-half-headings{
+        font-family: 'Roboto';
+        
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    .upper-half-texts{
+        padding-top: 2rem;
+        color: #AEAEAE;;
+    }
+    #newsletter .container-fluid{
+        height: 100%;
+    background: linear-gradient(252.8deg, #403366 7.64%, #1A162D 102.98%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* margin-right: 2rem;
+    margin-left:2rem;*/
+    } 
+    
+    .features{
+         color: #AEAEAE;
+         line-height: 3rem;
+         font-size: 1.5rem;
+         
+    }
+    .btn-outline-success{
+        background: #753BBD;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    }
+    .form-control{
+        border: 2px solid var(--blue-magnenta);
+            outline-color: none;
+            background: linear-gradient( 94.03deg, rgba(91, 111, 193, 0.2) 12.67%, rgba(214, 239, 248, 0.2) 63.83%);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+    }
+    
+    
+    
+    }
+    @media screen and (max-width:414px){
+        #newsletter{
+            height:100%}
+
+        #newsletter .container-fluid{
+            padding-top: 1rem;
+        background: linear-gradient(252.8deg, #403366 7.64%, #1A162D 102.98%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        }
+
+        .features{
+            color: #AEAEAE;
+            line-height: 2.5rem;
+            font-size: 1.5rem;
+       }
+       .features ul h3{
+           color: #FFFFFF;
+       }
+       .upper-half-headings{
+        font-family: 'Roboto';
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    .upper-half-texts{
+        padding-top: 2rem;
+    }
+    .form-control{
+        border: 2px solid var(--blue-magnenta);
+            outline-color: none;
+            background: linear-gradient( 94.03deg, rgba(91, 111, 193, 0.2) 12.67%, rgba(214, 239, 248, 0.2) 63.83%);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.13);
+    }
+    .d-flex{
+        padding-top: 2rem;
+    }
+    }
+
+
+
+
+
+
